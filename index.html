@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Shamil K | Python Full-Stack Developer</title>
+    <link rel="icon" href="/WhatsApp Image 2026-02-10 at 3.58.08 PM.jpeg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor"></div>
+<div class="drops-container"></div>
+
+
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Cursor Follower -->
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text"></span>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link btn-primary">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="subtitle" data-aos="fade-up">Hello, I'm</span>
+                <h1 class="hero-name reveal" data-aos="fade-up" data-aos-delay="100">
+                    Muhammed Shamil K </h1>
+
+                <h2 class="reveal delay-1 typing-effect" data-aos="fade-up" data-aos-delay="200">
+                    <span id="typed-text"></span>
+                    <span class="cursor-blink">|</span>
+                </h2>
+                <p data-aos="fade-up" data-aos-delay="300">
+                   I create responsive and scalable web applications with a strong focus on usability. I’m deeply interested in coding, modern technologies, and constantly improving my skills through continuous learning.
+                </p>
+                <div class="hero-btns" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#projects" class="btn btn-filled">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Contact Me</span>
+                    </a>
+                </div>
+                <div class="social-links" data-aos="fade-up" data-aos-delay="500">
+                    <a href="https://github.com/muhammedshamilk" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/muhammed-shamil-kruthedath" class="social-icon"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shhamiill.____?igsh=MTlobGxneXJhaTAzaQ%3D%3D&utm_source=qr"
+                        class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+                <div class="blob-shape">
+                    <img src="/WhatsApp Image 2026-02-10 at 3.58.08 PM.jpeg" alt="Muhammed Shamil" class="profile-img">
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">Get to know me</span>
+                <h2>About Me</h2>
+                <p>Who I am & what I do</p>
+            </div>
+
+            <div class="about-wrapper">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Python Full-Stack Developer </h3>
+                    <p>
+                        I’m a commerce graduate making a transition into software development, currently concentrating on creating hands-on web applications with Python.
+                    </p>
+                    <p>
+                       I train at <strong>Techno Dot Academy</strong> under Febno Technologies, where my learning is entirely project-driven—working with real code, solving real-world problems, and following industry-standard development practices.
+                    </p>
+                    <p class="about-focus">
+                        My aim is to become a job-ready full-stack developer with a solid foundation in backend development, database management, and clean, well-structured frontend design.
+                    </p>
+                    <div class="about-buttons">
+                        <a href="#projects" class="btn btn-filled">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="/MUHAMMED-SHAMIL-K-FlowCV-Resume-20251219.pdf" class="btn btn-outline" target="_blank" download>
+                            <span>Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="stat-title">Background</span>
+                        <span class="stat-value">Plus Two commerce</span>
+                    </div>
+
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <span class="stat-title">Current Track</span>
+                        <span class="stat-value">Python Full-Stack</span>
+                    </div>
+
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <span class="stat-title">Learning Style</span>
+                        <span class="stat-value">Project Based</span>
+                    </div>
+
+                    <div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="stat-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <span class="stat-title">Location</span>
+                        <span class="stat-value">Kerala, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">What I know</span>
+                <h2>My Skills</h2>
+                <p>Technical proficiency and tools</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-tile" data-aos="fade-up">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="50">
+                    <i class="fa-solid fa-d"></i>
+                    <span>Django</span>
+                </div>
+
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="250">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+
+
+                <!-- PostgreSQL -->
+                <div class="skill-tile" data-aos="fade-up">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                </div>
+
+                <!-- tailwind -->
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="50">
+                    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40">
+                    <span>Tailwind CSS</span>
+                </div>
+
+                <!-- Bootstrap -->
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+
+                <!-- Unix -->
+                <div class="skill-tile" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">What I offer</span>
+                <h2>Services</h2>
+                <p>What I can do for you</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive, user-focused web interfaces with HTML, CSS, JavaScript, and React.</p>
+
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Building server-side functionality and RESTful APIs using Python and Django, with seamless database integration.</p>
+
+                    <div class="service-hover-effect"></div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Full-Stack Solutions</h3>
+                    <p>Creating full-stack web applications by combining React on the frontend with Django on the backend, along with integrated database support.</p>
+
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">My work</span>
+                <h2>Projects</h2>
+                <p>Recent work & experiments</p>
+            </div>
+
+            <!-- Project Filter -->
+            <div class="project-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <!-- <button class="filter-btn" data-filter="python">Python</button> -->
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="frontend" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="/Screenshot 2026-02-10 154248.png" alt="Portfolio Website"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="project-overlay">
+
+                            <a href="https://portfolio-eight-psi-25.vercel.app/" class="overlay-btn"><i
+                                    class="fas fa-eye"></i></a>
+                            <a href="https://github.com/muhammedshamilk/portfolio" class="overlay-btn"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio website built with modern HTML, CSS, and JavaScript featuring smooth
+                            animations.</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="python" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="/Screenshot 2026-02-10 153201.png" alt="Python Utilities"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-placeholder">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <div class="project-overlay">
+
+                            <a href="https://elan-studio.vercel.app/" class="overlay-btn"><i
+                                    class="fas fa-eye"></i></a>
+                            <a href="https://github.com/muhammedshamilk/elan-studio" class="overlay-btn"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <!-- <span class="tag">Automation</span> -->
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>Developed responsive frontend components using HTML, CSS clean structure and interactive
+                            behavior.</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-img">
+                        <img src="/Screenshot 2026-02-10 152819.png" alt="E-commerce Demo"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://netflix-livid-mu.vercel.app/" class="overlay-btn"><i
+                                    class="fas fa-eye"></i></a>
+                            <a href="https://github.com/muhammedshamilk/netflix" class="overlay-btn"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Grid</span>
+                        </div>
+                        <h3>Netflix</h3>
+                        <p>Modern e-commerce page layout practicing CSS Grid, Flexbox, and responsive design principles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <span class="section-tag">Get in touch</span>
+                <h2>Contact Me</h2>
+                <p>Let's work together</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9037153101</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>karuthedathshamil@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Malappuram, Kerala, India</p>
+                        </div>
+                    </div>
+                    <div class="availability-status">
+                        <div class="status-indicator"></div>
+                        <span>Available for freelance work</span>
+                    </div>
+                </div>
+
+               <form id="contact-form"
+                    class="contact-form"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      data-aos="fade-left">
+
+    <input type="hidden" name="access_key" value="4f70b507-1782-4a32-a5e7-996009751a5c">
+
+    <input type="hidden" name="subject" value="New message from portfolio">
+
+    <input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+    <input type="hidden" name="redirect" value="https://yourportfolio.vercel.app/#contact">
+
+
+    <div class="form-group">
+        <input type="text" name="name" required>
+        <label class="floating-label">Your Name</label>
+        <span class="form-underline"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="email" name="email" required>
+        <label class="floating-label">Your Email</label>
+        <span class="form-underline"></span>
+    </div>
+
+    <div class="form-group">
+        <textarea name="message" rows="4" required></textarea>
+        <label class="floating-label">Your Message</label>
+        <span class="form-underline"></span>
+    </div>
+
+    <button type="submit" class="btn btn-filled">
+        <span>Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+    </button>
+
+</form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket"></span>
+                    <span class="logo-text"></span>
+                    <span class="logo-bracket"></span>
+                </div>
+                <p>&copy; 2026 Muhammed Shamil K. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/muhammedshamilk"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/muhammed-shamil-kruthedath"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/shhamiill.____?igsh=MTlobGxneXJhaTAzaQ%3D%3D&utm_source=qr"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="success-modal" id="successModal">
+        <div class="modal-content">
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I'll get back to you soon.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
